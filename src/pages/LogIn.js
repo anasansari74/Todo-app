@@ -3,7 +3,7 @@ import AllUsers from "../components/AllUsers";
 export default function LogIn() {
   return (
     <div className="wrapper">
-      <h2 className="login-title">Log In!</h2>
+      <h2 className="login-title">Log In!!</h2>
       <ul className="users">
         <AllUsers />
         <li>
