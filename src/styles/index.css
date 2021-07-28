@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: royalblue;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s;
+
+  width: 100%;
+
+  padding: 0.5rem 1rem;
+
+  border: 0.2rem solid crimson;
+  border-radius: 2rem;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+button:active {
+  filter: brightness(0.9);
+}
+
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+
+  place-items: center;
+
+  margin: auto;
+  margin-top: 5rem;
+
+  height: auto;
+  max-width: 25rem;
+
+  padding-bottom: 2rem;
+
+  border: 0.25rem solid black;
+
+  background-color: lightblue;
+}
+
+.users {
+  display: grid;
+  grid-gap: 2rem;
+}
+
+/* Todos */
+.addTodoForm {
+  display: flex;
+  gap: 1rem;
+}
+
+.addTodoForm input {
+  padding: 0.75rem;
+}
+
+.todos {
+  display: grid;
+  grid-gap: 1rem;
+
+  width: 80%;
+
+  padding: 1rem;
+}
